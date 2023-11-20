@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /error/:msg
+
+Sitemap: https://www.monk-digital.com/sitemap.xml

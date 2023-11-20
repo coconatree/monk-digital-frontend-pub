@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    padding: 0;
+    margin:  0;
+    color:   black;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.text-h {
+    color: #2f67bf;
+}
+
+.wave-vector {
+    bottom:   0;
+    position: absolute;
+    opacity:  0.1;
+    width:    100vw;
+    left:     0;
+    z-index:  0;
+}
+
+.hole-vector {
+    bottom:   0;
+    opacity:  0.3;
+    width:    100vw;
+    left:     0;
+    z-index:  0;
+    position: absolute;
+    @apply border-b;
+    @apply border-black;
+}
+
+.primary-bg {
+    background-color: rgb(2, 1, 8);
+}
+
+.primary-bg-ligth {
+    background-color: #25499E
+}
+
+.primary-color {
+    background-color: #2b1884
+}
+
+.primary-border-color {
+    border-color: #364461;
+}
+
+
+.footer-logo {
+    width: 28px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    height: 7vh;
+    width: 100vw;
+}
+
+.custom-mt-6 {
+    margin-top: 7vh;
+}
+
+.custom-pt-10 {
+    padding-top: 10vh;
+}
+
+.custom-monk-h-94 {
+    min-height: 93vh;
+}
+
+.monk-min-h-90 {
+    min-height: 90vh;
+}
+
+
+.line {
+    min-height:       2px;
+    min-width:        16px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display:          inline-block;
+    z-index:          20;
+}
+
+.cross-container {
+    @apply mr-4;
+}
+
+.line-4 {
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.line-5 {
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.stop-scrolling {
+    overflow-y: hidden;
+}
+
+.service-list-icon {
+    width: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-contact {
+    background-color: #ecedf3;
+}
+
+.custom-modal {
+    position: absolute;
+    width:    50vw;
+    height:   40vh;
+    top:      30vh;
+    left:     25vw;
+}
+
+.navbar-custom-bg {
+    color: #ece7e7;
+}
+
+.navbar-menu {
+    top: 5vh;
+}
+
+.red-border {
+    --tw-border-opacity: 1;
+    border-color: rgb(127 29 29 / var(--tw-border-opacity)) !important;
+
+}
